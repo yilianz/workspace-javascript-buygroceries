@@ -3,7 +3,10 @@
  */
 
 // get all the hot class elements- change them to cool class
-
+$(".hot").each(function() {
+    $(this).removeClass("hot");
+    $(this).addClass("cool");
+  });
 
 // traverse the elements
 
