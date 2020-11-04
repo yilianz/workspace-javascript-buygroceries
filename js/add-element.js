@@ -19,9 +19,11 @@ document.getElementById("add").addEventListener("click", addElement);
 
 function addElement() {
   // add a new element
-  
+      // add a new element
+
 }
 
+$("li").click(changeStyle);
 
 //  click the li element will change the changeStyle
 function changeStyle() {
@@ -33,6 +35,6 @@ document.getElementById("remove").addEventListener("click", removeElement);
 
 function removeElement() {
   // remove the marked element
- 
+
  
 }
